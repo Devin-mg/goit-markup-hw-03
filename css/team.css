@@ -3,6 +3,24 @@
   background-color: #f4f4fd;
 }
 
+.team .section-title {
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
 .team-card {
+  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
+}
+
+.team-card-text {
+  padding: 32px 16px;
+}
+
+.team-card-text .card-title {
+  margin-bottom: 8px;
 }
